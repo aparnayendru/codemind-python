@@ -5,5 +5,6 @@ for i in range(len(arr)):
     if arr[i]%2==0:
         break
     else:
-        sum+=arr[i]
+        sum=sum+arr[i]
 print(sum)
+        
