@@ -1,8 +1,8 @@
 s=input().lower()
 s=s.replace(" ","")
 a=''
-for i in s:
-    if s.count(i)==1:
+for i in set(s):
+    #if s.count(i)==1:
         a+=i
 a=list(a)
 a.sort()
