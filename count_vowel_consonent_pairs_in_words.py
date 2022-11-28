@@ -9,4 +9,3 @@ for i in s:
             #print(s[i],s[k-i-1],end=" ")
             count+=1
 print(count)
-        
