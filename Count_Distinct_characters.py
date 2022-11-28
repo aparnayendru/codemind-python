@@ -1,3 +1,8 @@
 s=input().lower()
 s=s.replace(" ","")
-print(len(set(s)))
+a=''
+for i in set(s):
+    #if s.count(i)==1:
+        a+=i
+a=list(a)
+print(len(a))
