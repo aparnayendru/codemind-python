@@ -1,11 +1,10 @@
 n=int(input())
-arr=list(map(str,input().split()))
-l=[]
-s=[]
-for i in arr:
-    l.append(len(i))
-a=max(l)
+a=list(map(str,input().split()))
+a1=[]
+a2=[]
+for i in a:
+    a1.append(len(i))
 for i in range(n):
-    if l[i]==a:
-        s.append(arr[i])
-print(*s)
+    if a1[i]==max(a1):
+        a2.append(a[i])
+print(*a2)
