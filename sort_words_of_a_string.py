@@ -1,4 +1,5 @@
 s=input().split()
+v='aeiouAEIOU'
 for words in s:
     c=[]
     d=[]
